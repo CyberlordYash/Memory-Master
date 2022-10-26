@@ -59,7 +59,7 @@ button {
   backface-visibility: hidden;
 }
 .board {
-  padding: 20px;
+  padding: 1rem;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 20px;
@@ -72,8 +72,8 @@ button {
 }
 .card {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   cursor: pointer;
 }
 .card-front,
